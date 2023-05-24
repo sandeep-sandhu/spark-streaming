@@ -4,7 +4,6 @@
   * Run coverage report with sbt using command:
   * sbt ';coverageEnabled;test'
   */
-
 import org.apache.spark.ml.PipelineModel
 import org.apache.spark.sql.{SQLContext, SQLImplicits, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
@@ -57,7 +56,6 @@ class StructuredStreamSpec
 
     assert(df.count == 1)
   }
-
 
 }
 
